@@ -1,0 +1,49 @@
+@import "../../styles/Color.scss";
+
+.register_box {
+    width: 60%;
+    border: 0.175em solid $black;
+    border-radius: 0.75em;
+    margin: 5em auto;
+    display: flex;
+    flex-flow: column;
+    gap: 1em;
+
+    .register {
+        text-align: center;
+        font-size: 2.25em;
+        margin-top: 0.4em;
+    }
+
+    .form_div {
+        display: flex;
+        justify-content: space-between;
+        margin: 1em 2em;
+
+        input {
+            width: 45%;
+            font-size: 2em;
+            border-radius: 0.5em;
+            padding: 0.25em;
+        }
+
+        input[type="submit"],
+        button {
+            cursor: pointer;
+            font-size: 2em;
+            width: 47%;
+            background-color: $white;
+            height: 1.7em;
+            border-radius: 0.5em;
+
+            a {
+                text-decoration: none;
+                color: $black;
+            }
+        }
+    }
+
+    .form_button {
+        margin-bottom: 2em;
+    }
+}

@@ -1,0 +1,26 @@
+@import "../../styles/Color.scss";
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+
+    .active {
+        font-size: 2em;
+        padding: 0 0.75em;
+        border-bottom: 0.0625em solid $black;
+    }
+
+    .inactive {
+        cursor: pointer;
+        font-size: 2em;
+        border-radius: 0.25em;
+        border: 0.0875em solid $black;
+        padding: 0 0.75em;
+    }
+
+    a {
+        text-decoration: none;
+        color: $black;
+    }
+}

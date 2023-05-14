@@ -1,0 +1,32 @@
+@import "../../styles/Color.scss";
+
+.product_box {
+    width: 75%;
+    border: 0.175em solid $black;
+    border-radius: 0.75em;
+    margin: 3em auto;
+    display: flex;
+    flex-flow: column;
+    gap: 1em;
+
+    .heading {
+        text-align: center;
+        font-size: 2.25em;
+        margin-top: 0.4em;
+    }
+
+    button {
+        cursor: pointer;
+        font-size: 2em;
+        width: 90%;
+        background-color: $white;
+        height: 1.7em;
+        border-radius: 0.5em;
+        margin: 0.30em auto;
+
+        a {
+            text-decoration: none;
+            color: $black;
+        }
+    }
+}

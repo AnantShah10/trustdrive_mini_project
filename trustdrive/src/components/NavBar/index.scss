@@ -1,0 +1,16 @@
+@import "../../styles/Color.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+.nav {
+    border-bottom: 0.1em solid $black;
+    font-size: 2.2em;
+    padding: 0.75em 1em;
+
+    a {
+        text-decoration: none;
+        color: $black;
+        cursor: pointer;
+        font-family: 'Quicksand', sans-serif;
+    }
+}

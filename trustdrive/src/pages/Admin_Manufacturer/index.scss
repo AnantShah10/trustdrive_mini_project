@@ -1,0 +1,19 @@
+@import "../../styles/Color.scss";
+
+table {
+    border: 0.0625em solid $black;
+    margin-top: 2.5em;
+
+    thead {
+        font-size: 1.2em;
+    }
+
+    tr {
+        font-size: 1em;
+    }
+
+    th, td {
+        border: 0.0625em solid $black;
+        text-align: center;
+    }
+}

@@ -1,0 +1,25 @@
+@import "../../styles/Color.scss";
+
+.already_products {
+    display: flex;
+    flex-flow: column;
+    font-size: 2em;
+    width: 90%;
+    margin: 0.3em auto;
+    gap: 1em;
+
+    button {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        border: solid $black;
+        background-color: $white;
+        height: 1.7em;
+        font-size: 1em;
+        border-radius: 0.5em;
+
+        td {
+            text-align: center;
+        }
+    }
+}

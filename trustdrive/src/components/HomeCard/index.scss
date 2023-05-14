@@ -1,0 +1,44 @@
+@import "../../styles/Color.scss";
+
+.homecard {
+    width: 30em;
+    height: 10em;
+    border: 0.175em solid $black;
+    border-radius: 0.75em;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+    img {
+        width: 10em;
+        padding: 0.25em;
+        box-sizing: border-box;
+    }
+
+    .div_column {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        margin: 1em;
+        font-size: 1.5em;
+        align-items: center;
+
+        .div_row {
+            display: flex;
+            flex-flow: row;
+            gap: 2em;
+
+            button {
+                cursor: pointer;
+                font-size: 0.75em;
+                width: 5em;
+                background-color: $white;
+
+                a {
+                    text-decoration: none;
+                    color: $black;
+                }
+            }
+        }
+    }
+}

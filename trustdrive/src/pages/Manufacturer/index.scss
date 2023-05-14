@@ -1,0 +1,48 @@
+@import "../../styles/Color.scss";
+
+.headingbutton {
+    display: flex;
+    flex-flow: row;
+    padding: 0.75em 3em;
+    margin-left: 3em;
+    font-size: 2.25em;
+
+    div {
+        flex: 5;
+    }
+
+    button {
+        flex: 1;
+        cursor: pointer;
+        background-color: $white;
+        border-radius: 0.5em;
+
+        a {
+            text-decoration: none;
+            color: $black;
+            font-size: 1.5em;
+        }
+    }
+}
+
+.products {
+    display: flex;
+    flex-flow: column;
+    font-size: 2em;
+    width: 90%;
+    margin: 0.3em auto;
+    gap: 1em;
+
+    div {
+        display: flex;
+        align-items: center;
+        border: solid $black;
+        background-color: $white;
+        height: 1.7em;
+        border-radius: 0.5em;
+
+        td {
+            text-align: center;
+        }
+    }
+}
